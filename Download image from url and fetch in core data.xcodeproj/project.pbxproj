@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3027BC0E28801E3E0021DDEB /* HomeData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027BC0C28801E3E0021DDEB /* HomeData+CoreDataClass.swift */; };
+		3027BC0F28801E3E0021DDEB /* HomeData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027BC0D28801E3E0021DDEB /* HomeData+CoreDataProperties.swift */; };
+		3027BC1128801FFF0021DDEB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027BC1028801FFF0021DDEB /* TableViewCell.swift */; };
 		3083FC66288017BD00DC67A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083FC65288017BD00DC67A9 /* AppDelegate.swift */; };
 		3083FC68288017BD00DC67A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083FC67288017BD00DC67A9 /* SceneDelegate.swift */; };
 		3083FC6A288017BD00DC67A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083FC69288017BD00DC67A9 /* ViewController.swift */; };
@@ -14,9 +17,14 @@
 		3083FC70288017BD00DC67A9 /* Download_image_from_url_and_fetch_in_core_data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3083FC6E288017BD00DC67A9 /* Download_image_from_url_and_fetch_in_core_data.xcdatamodeld */; };
 		3083FC72288017C100DC67A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3083FC71288017C100DC67A9 /* Assets.xcassets */; };
 		3083FC75288017C100DC67A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3083FC73288017C100DC67A9 /* LaunchScreen.storyboard */; };
+		84FA2ACEDC9E2B4119D901D3 /* Pods_Download_image_from_url_and_fetch_in_core_data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240B6647DAC4FDA5D18C8EF9 /* Pods_Download_image_from_url_and_fetch_in_core_data.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		240B6647DAC4FDA5D18C8EF9 /* Pods_Download_image_from_url_and_fetch_in_core_data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Download_image_from_url_and_fetch_in_core_data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3027BC0C28801E3E0021DDEB /* HomeData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3027BC0D28801E3E0021DDEB /* HomeData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3027BC1028801FFF0021DDEB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3083FC62288017BD00DC67A9 /* Download image from url and fetch in core data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Download image from url and fetch in core data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3083FC65288017BD00DC67A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3083FC67288017BD00DC67A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		3083FC71288017C100DC67A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3083FC74288017C100DC67A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3083FC76288017C100DC67A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A115924F7C64A085B604B3F0 /* Pods-Download image from url and fetch in core data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Download image from url and fetch in core data.debug.xcconfig"; path = "Target Support Files/Pods-Download image from url and fetch in core data/Pods-Download image from url and fetch in core data.debug.xcconfig"; sourceTree = "<group>"; };
+		F1FBDD1ADA4BD84CDC902499 /* Pods-Download image from url and fetch in core data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Download image from url and fetch in core data.release.xcconfig"; path = "Target Support Files/Pods-Download image from url and fetch in core data/Pods-Download image from url and fetch in core data.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FA2ACEDC9E2B4119D901D3 /* Pods_Download_image_from_url_and_fetch_in_core_data.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2D0277DD024B498C66BD22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				240B6647DAC4FDA5D18C8EF9 /* Pods_Download_image_from_url_and_fetch_in_core_data.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3083FC59288017BD00DC67A9 = {
 			isa = PBXGroup;
 			children = (
 				3083FC64288017BD00DC67A9 /* Download image from url and fetch in core data */,
 				3083FC63288017BD00DC67A9 /* Products */,
+				65F9ADB7E4CAC260BFAFA5AB /* Pods */,
+				0E2D0277DD024B498C66BD22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +79,28 @@
 		3083FC64288017BD00DC67A9 /* Download image from url and fetch in core data */ = {
 			isa = PBXGroup;
 			children = (
+				3027BC0C28801E3E0021DDEB /* HomeData+CoreDataClass.swift */,
+				3027BC0D28801E3E0021DDEB /* HomeData+CoreDataProperties.swift */,
 				3083FC65288017BD00DC67A9 /* AppDelegate.swift */,
 				3083FC67288017BD00DC67A9 /* SceneDelegate.swift */,
 				3083FC69288017BD00DC67A9 /* ViewController.swift */,
 				3083FC6B288017BD00DC67A9 /* Main.storyboard */,
+				3027BC1028801FFF0021DDEB /* TableViewCell.swift */,
 				3083FC71288017C100DC67A9 /* Assets.xcassets */,
 				3083FC73288017C100DC67A9 /* LaunchScreen.storyboard */,
 				3083FC76288017C100DC67A9 /* Info.plist */,
 				3083FC6E288017BD00DC67A9 /* Download_image_from_url_and_fetch_in_core_data.xcdatamodeld */,
 			);
 			path = "Download image from url and fetch in core data";
+			sourceTree = "<group>";
+		};
+		65F9ADB7E4CAC260BFAFA5AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A115924F7C64A085B604B3F0 /* Pods-Download image from url and fetch in core data.debug.xcconfig */,
+				F1FBDD1ADA4BD84CDC902499 /* Pods-Download image from url and fetch in core data.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3083FC79288017C100DC67A9 /* Build configuration list for PBXNativeTarget "Download image from url and fetch in core data" */;
 			buildPhases = (
+				4B594DF72862D81659B51AE8 /* [CP] Check Pods Manifest.lock */,
 				3083FC5E288017BD00DC67A9 /* Sources */,
 				3083FC5F288017BD00DC67A9 /* Frameworks */,
 				3083FC60288017BD00DC67A9 /* Resources */,
+				622DBD5DF49C0CF1CB7726F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +171,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B594DF72862D81659B51AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Download image from url and fetch in core data-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622DBD5DF49C0CF1CB7726F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Download image from url and fetch in core data/Pods-Download image from url and fetch in core data-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Download image from url and fetch in core data/Pods-Download image from url and fetch in core data-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Download image from url and fetch in core data/Pods-Download image from url and fetch in core data-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3083FC5E288017BD00DC67A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3083FC70288017BD00DC67A9 /* Download_image_from_url_and_fetch_in_core_data.xcdatamodeld in Sources */,
+				3027BC0E28801E3E0021DDEB /* HomeData+CoreDataClass.swift in Sources */,
+				3027BC0F28801E3E0021DDEB /* HomeData+CoreDataProperties.swift in Sources */,
 				3083FC6A288017BD00DC67A9 /* ViewController.swift in Sources */,
 				3083FC66288017BD00DC67A9 /* AppDelegate.swift in Sources */,
+				3027BC1128801FFF0021DDEB /* TableViewCell.swift in Sources */,
 				3083FC68288017BD00DC67A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,11 +366,13 @@
 		};
 		3083FC7A288017C100DC67A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A115924F7C64A085B604B3F0 /* Pods-Download image from url and fetch in core data.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A2A49DNMZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Download image from url and fetch in core data/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -313,11 +395,13 @@
 		};
 		3083FC7B288017C100DC67A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FBDD1ADA4BD84CDC902499 /* Pods-Download image from url and fetch in core data.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A2A49DNMZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Download image from url and fetch in core data/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
